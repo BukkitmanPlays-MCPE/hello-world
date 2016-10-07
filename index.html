@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>LOVE Lua into HTML5 Converter</title>
+		<link rel="icon" type="image/icon" href="icon.ico" />
+		<link rel="stylesheet" type="text/css" href="https://love2d.org/style/style.css" />
+		<link rel="stylesheet" type="text/css" href="touch-ups.css" />
+		<style >
+			iframe {
+				border-width: 0;
+			}
+
+			#javascript {
+				background-image: url("images/javascript.png");
+			}
+
+			#embed {
+				background-image: url("images/embed.png");
+			}
+		</style>
+	</head>
+	<body id="germanunkol">
+		<main>
+			<h1>LÖVE</h1>
+			<section id="intro">
+				<br />
+				<p>
+					Hi there! LOVE is an *awesome* framework you can use to make
+					2D games in Lua. It's free, open-source, and works on
+					Windows, Mac OS X, Linux, Android and iOS.
+				</p>
+			</section>
+			<center><h2>And now, You Can Make It into an HTML5 Game!</h2></center>
+			<br />
+			<section id="converter">
+				<iframe src="Application.html" width="100%" height="502px"><h2>The converter will only work if your web browser supports iframes</h2></iframe>
+			</section>
+			<section id="download">
+				<h2>Download LOVE JS 0.10.1</h2>
+				<div>
+					<dl id="javascript">
+						<dt>JavaScript</dt>
+						<dd>
+							<a href="love2d.js">JavaScript API</a>
+						</dd>
+						<br />
+					</dl>
+					<dl id="embed">
+						<dt>Converter App</dt>
+						<dd>
+							<a href="Application.html">Downloaded</a>
+						</dd>
+						<dd>
+							<a>Embedded</a>
+						</dd>
+					</dl>
+				</div>
+			</section>
+			<section id="examples">
+				<h2>Examples</h2>
+				<p>It is pretty simple getting started with JavaScript LOVE. Just look at the code snippets!</p>
+				<dl>
+					<dt>Drawing text</dt>
+					<dd>
+						<code class=" hljs lua">
+							<span class="hljs-function">
+								<span class="hljs-keyword">function</span> 
+								<span class="hljs-title">love.draw</span>
+								<span class="hljs-params">()</span>
+							</span>
+							<br>
+							<span class="hljs-indent">	</span>
+							love.graphics.
+							<span class="hljs-built_in">print</span>
+							(
+							<span class="hljs-string">"Hello World!"</span>
+							, 
+							<span class="hljs-number">400</span>
+							, 
+							<span class="hljs-number">300</span>
+							)
+							<br>
+							<span class="hljs-keyword">end</span>
+						</code>
+					</dd>
+					<dt>JS variation</dt>
+					<dd>
+						<code class=" hljs lua">
+							<span class="hljs-function">
+								<span class="hljs-keyword">function</span>
+								<span class="hljs-title">love.draw</span>
+								<span class="hljs-params">() {</span>
+							</span>
+							<br />
+							<span class="hljs-indent">    </span>
+							love.graphics.
+							<span class="hljs-built_in">print</span>
+							(
+							<span class="hljs-string">"Hello World!"</span>
+							", 
+							<span class="hljs-number">400</span>
+							", "
+							<span class="hljs-number">300</span>
+							");"
+							<br />
+							<span class="hljs-params">}</span>
+						</code>
+					</dd>
+					<br /><br />
+					<dt>Drawing an image</dt>
+				</dl>
+			</section>
+		</main>
+		<footer>
+			<section>
+				<div id="Copywrite">
+				<h3>About</h3>
+				<p>
+					I do not own the LOVE Framework, theme, or anything about it, and I am just supporting it by making is usable in any wabsite... Infact, I can let them use my program in their website if they want, but they must give credit.
+				</p>
+			</div>
+			</section>
+		</footer>
+	</body>
+</html>
